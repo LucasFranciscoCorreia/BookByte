@@ -17,7 +17,7 @@ wsl --install
 <p>2. Download this repository</p>
 
 ```
-git clone https://github.com/yourusername/BookByte.git
+git clone https://github.com/LucasFranciscoCorreia/BookByte.git
 ```
 
 <p>3. Go to the project directory</p>
