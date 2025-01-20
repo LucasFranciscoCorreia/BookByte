@@ -1,23 +1,58 @@
-name: C/C++ CI
+name: CodeQL
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ for a C project:
+
+1. Open your workflow filemain]
   pull_request:
-    branches: [ "master" ]
+    branches: [main]
+  schedule:
+ located at `.github/workflows/codeql.yml`.
+2. Replace the `autobuild` step with custom build steps.
+
+    - cron: '0 0 * * 0'
 
 jobs:
-  build:
-
+  analyze:
+    name: Analyze
     runs-on: ubuntu-latest
+    steps:
+    -Example:
+
+```yaml
+name: "CodeQL"
+
+on:
+  push:
+    branches name: Checkout repository
+      uses: actions/checkout@: [ "main" ]
+  pull_request:
+    branches:v2
+
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v2
+      with:
+        languages: [ "main" ]
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs cpp
+
+    - name: Build project
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest-essential
+        make  # Adjust this command to your
 
     steps:
-    - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: Checkout repository
+ project's build steps
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@      uses: actions/checkout@v2
+
+    - name: Initialize thev2
