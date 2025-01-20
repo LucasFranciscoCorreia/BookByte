@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/LucasFranciscoCorreia/BookByte/image?description=1&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
-<p id="description">Bookbyte is a project aimed to manage a library with books clients and book loans for clients. This project is designed as a project the Programming Introduction I offered at UFRPE at the semestre of 2016.1.</p>
+<p id="description">Bookbyte is a project aimed at managing a library with books clients and book loans for clients. This project is designed as a project for the Programming Introduction I offered at UFRPE in the semester of 2016.1.</p>
 
 <p align="center"><img src="https://img.shields.io/github/downloads/LucasFranciscoCorreia/BookByte/total" alt="shields"><img src="https://img.shields.io/github/issues/LucasFranciscoCorreia/BookByte" alt="shields"><img src="https://img.shields.io/github/issues-pr/LucasFranciscoCorreia/BookByte" alt="shields"><img src="https://img.shields.io/github/license/LucasFranciscoCorreia/BookByte" alt="shields"><img src="https://img.shields.io/github/repo-size/LucasFranciscoCorreia/BookByte" alt="shields"></p>
 
